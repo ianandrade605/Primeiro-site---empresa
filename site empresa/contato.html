@@ -130,7 +130,7 @@
       <section>
         <div class="wrapper_inner white">
           <h1 class="h2 text_center big">Entre em contato conosco</h1>
-          <form class="mt-4" action="sucesso.html" >
+          <form class="mt-4" onsubmit="enviarFormulario(event)">>
             <div class="form-group">
               <label for="name"><p class="h4">Nome Completo:</p></label>
               <input class="form-control mt-4" type="text" name="name" id="name" required>
@@ -157,10 +157,5 @@
         </section>
       </footer>
     </div>  
-    <!-- <script>
-        function mudarCor() {
-            document.getElementsByClassName("btn").style.backgroundcolor = "lightblue"; 
-        }
-    </script> -->
-  </body>
+    <script src="script.js"></script>
 </html>
