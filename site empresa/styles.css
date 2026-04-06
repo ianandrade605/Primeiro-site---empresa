@@ -829,9 +829,3 @@ hr{
     overflow: scroll, hidden;
 }
 
-.h5 {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 250px;
-}
